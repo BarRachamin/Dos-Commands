@@ -1,0 +1,21 @@
+-github commands-
+
+-git md/cd name-ליצור או להיכנס לתקייה קיימת
+-git init-להכניס את פקודות הגיט לתקייה
+-git config  --global user.name-להכניס את השם שלך מהגיטהאב לתוך מערכת הגיט 
+-git config --global user.email-להכניס את האיימל שלך מהגיטהאב לתוך מערכת הגיט 
+-git config --list-רואה חיבור לחשבון
+-git status-אומר לנו על קבצים שנמצאו או שלא הכנסנו לתקייה
+-git add ./name.txt-לצרף קובץ אחד או כמה לתוך התקייה בrepository
+-git commit -m""-לתת שם לכומת המסמכים העלתה
+-git ls-files-פקודה שמראה לנו את רשימת ה'בצים שהעלנו
+*git add befor git commit -m""*
+-git branch name-לפצוח עוד ענן/שרת/סניף שאיתו אוכל לעבוד במקביל מבלי להפריע למקורי או לשנות אותו
+git branch -m-לשנות שם לבראנץ'
+-git branch-בודק כמה בראנצ'ים קיימים
+-git checkout Name-עובר לבראנץ' אחר
+git checkout -b- לפתוח בראנץ' ולהיכנס אליו
+-git remot add origin ("link repository")-בלינק יש לאיזה תיקייה בגיטהאב אתה בוך לצרף את אותם קבצים הלניק ברפוסיטורי שפתחת
+-git push origin HEAD-מעלה לאתר את אותם קבצים שעשיתה להם add
+-git pull origin NAme branch-למשוך מהאתר קובץ מסויים
+-git merge branchName-למזג בין בראנצים ולאחד עבודות
